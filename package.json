@@ -1,0 +1,18 @@
+{
+  "name": "anampiuhillary-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Professional portfolio website for Hillary Anampiu Gitonga.",
+  "scripts": {
+    "start": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "keywords": [
+    "portfolio",
+    "software-engineer",
+    "web-systems",
+    "automation"
+  ],
+  "author": "Hillary Anampiu Gitonga",
+  "license": "UNLICENSED"
+}
