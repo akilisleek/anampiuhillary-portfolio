@@ -8,7 +8,7 @@ This is a fuller professional portfolio package with the organization and struct
 - Capability summary
 - Services / What I Build
 - Selected Work
-- Featured HomelinkGlobal case study
+- Featured case study
 - GoldTower private automation project
 - Business systems and dashboards
 - Process
