@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Hillary Anampiu builds useful web products, WiFi billing systems, trading tools, and automation." >
+  <meta name="theme-color" content="#101218">
+  <meta property="og:title" content="Hillary Anampiu | Digital Product Builder">
+  <meta property="og:description" content="Practical web products, operations tools, trading systems, and automation.">
+  <meta property="og:type" content="website">
+  <title>Hillary Anampiu | Digital Product Builder</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="shell nav-wrap">
+      <a class="brand" href="#top" aria-label="Hillary Anampiu home">HA<span>.</span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+      <nav id="site-nav" class="site-nav" aria-label="Primary navigation">
+        <a href="#work">Work</a>
+        <a href="#lab">Build lab</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a class="header-link" href="https://github.com/akilisleek" target="_blank" rel="noreferrer">GitHub</a>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-image" role="img" aria-label="A business systems dashboard interface"></div>
+      <div class="shell hero-content">
+        <p class="kicker">Nairobi, Kenya / available worldwide</p>
+        <h1 id="hero-title">I build the useful parts of the internet.</h1>
+        <p class="hero-copy">Web products, payment-connected WiFi systems, dashboards, trading tools, and small experiments that solve real problems.</p>
+        <div class="hero-actions">
+          <a class="button button-dark" href="#work">See the work</a>
+          <a class="button button-light" href="mailto:anampiuhillary@gmail.com">Start a conversation</a>
+        </div>
+      </div>
+      <div class="hero-meta shell" aria-label="Focus areas">
+        <span>Web products</span><span>Automation</span><span>Network systems</span><span>Trading tools</span>
+      </div>
+    </section>
+
+    <section id="work" class="section work-section" aria-labelledby="work-title">
+      <div class="shell">
+        <div class="section-heading">
+          <p class="kicker">Selected work</p>
+          <h2 id="work-title">Things that have to work outside the mockup.</h2>
+          <p>Built around payments, operations, decisions, and people trying to get something done quickly.</p>
+        </div>
+
+        <article class="feature-project larrynet">
+          <div class="feature-copy">
+            <p class="project-type">Live operations system</p>
+            <h3>LarrynetBilling</h3>
+            <p>A MikroTik hotspot billing system for a Kenyan WiFi business. Customers choose a package, approve an M-Pesa STK payment, and receive timed internet access automatically.</p>
+            <ul class="project-list">
+              <li>FastAPI payment and activation backend</li>
+              <li>PayHero M-Pesa callbacks and payment recovery</li>
+              <li>MikroTik hotspot users, session limits, and admin actions</li>
+            </ul>
+            <div class="tech-row" aria-label="LarrynetBilling stack">
+              <span>Python</span><span>FastAPI</span><span>PayHero</span><span>MikroTik</span>
+            </div>
+          </div>
+          <div class="billing-visual" aria-label="LarrynetBilling payment flow illustration">
+            <div class="visual-topline"><span class="visual-dot"></span> LARRYNET / ACCESS FLOW</div>
+            <div class="flow-node phone-node"><b>01</b><span>Choose<br>package</span></div>
+            <div class="flow-line" aria-hidden="true"></div>
+            <div class="flow-node pay-node"><b>02</b><span>Approve<br>M-Pesa</span></div>
+            <div class="flow-line" aria-hidden="true"></div>
+            <div class="flow-node wifi-node"><b>03</b><span>Get<br>online</span></div>
+            <div class="visual-status"><span></span> payment confirmed / access active</div>
+          </div>
+        </article>
+
+        <div class="project-grid">
+          <article class="project-card project-card-image">
+            <img src="assets/project-homelink.png" alt="HomelinkGlobal web platform preview" loading="lazy">
+            <div class="project-card-copy">
+              <p class="project-type">Web platform prototype</p>
+              <h3>HomelinkGlobal</h3>
+              <p>Property discovery, relocation requests, supplier onboarding, and administration flows in one clickable product concept.</p>
+              <a class="text-link" href="https://akilisleek.github.io/homelink-sample/" target="_blank" rel="noreferrer">Open demo <span aria-hidden="true">&rarr;</span></a>
+            </div>
+          </article>
+
+          <article class="project-card project-card-image">
+            <img src="assets/project-goldtower.png" alt="GoldTower XAUUSD automation preview" loading="lazy">
+            <div class="project-card-copy">
+              <p class="project-type">Trading automation</p>
+              <h3>GoldTower XAUUSD</h3>
+              <p>A private Expert Advisor project focused on trade rules, execution controls, risk constraints, and testing discipline.</p>
+              <span class="text-note">MQL5 / MetaTrader 5 / private build</span>
+            </div>
+          </article>
+
+          <article class="project-card quantum-card">
+            <div class="quantum-visual" aria-hidden="true"><span>QTF</span><i></i><i></i><i></i><b>funded<br>thinking</b></div>
+            <div class="project-card-copy">
+              <p class="project-type">Trading product</p>
+              <h3>QuantumTradingFunds</h3>
+              <p>A growing trading-focused product space for clear systems, performance thinking, and trader-friendly tools.</p>
+              <span class="text-note">Product direction in progress</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="lab" class="section lab-section" aria-labelledby="lab-title">
+      <div class="shell lab-layout">
+        <div class="section-heading">
+          <p class="kicker">Build lab</p>
+          <h2 id="lab-title">Small projects keep the bigger ones honest.</h2>
+        </div>
+        <div class="lab-list">
+          <article><span class="lab-index">01</span><div><h3>Useful scripts</h3><p>Small utilities for repetitive tasks, data cleanup, and everyday operations.</p></div></article>
+          <article><span class="lab-index">02</span><div><h3>Browser experiments</h3><p>Fast, playful interfaces built to explore interaction, motion, and product ideas.</p></div></article>
+          <article><span class="lab-index">03</span><div><h3>Trading research tools</h3><p>Practical helpers for testing ideas, tracking risk, and making trading workflows clearer.</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section about-section" aria-labelledby="about-title">
+      <div class="shell about-layout">
+        <p class="kicker">About</p>
+        <div>
+          <h2 id="about-title">I like systems with a pulse.</h2>
+          <p class="about-copy">I am Hillary Anampiu, a software engineer based in Kenya. I work best where product design meets practical engineering: a payment needs to complete, an admin needs a clear action, a customer needs to get connected, or a trading rule needs to behave predictably.</p>
+          <div class="toolkit" aria-label="Technical toolkit">
+            <span>HTML / CSS / JavaScript</span><span>Python / FastAPI</span><span>SQLite / MySQL</span><span>GitHub / Vercel</span><span>MQL5</span><span>MikroTik</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section" aria-labelledby="contact-title">
+      <div class="shell contact-layout">
+        <div>
+          <p class="kicker">Have a real problem to solve?</p>
+          <h2 id="contact-title">Let's make it less painful.</h2>
+        </div>
+        <div class="contact-actions">
+          <a class="button button-lime" href="mailto:anampiuhillary@gmail.com">anampiuhillary@gmail.com</a>
+          <a class="text-link on-dark" href="https://github.com/akilisleek" target="_blank" rel="noreferrer">github.com/akilisleek <span aria-hidden="true">&rarr;</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="shell footer-row"><span>&copy; <span id="year"></span> Hillary Anampiu</span><a href="#top">Back to top</a></div>
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html>
